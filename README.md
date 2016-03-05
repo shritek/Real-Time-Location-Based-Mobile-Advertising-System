@@ -1,1 +1,3 @@
-# Real-Time-Location-Based-Mobile-Advertising-System
+# Real-Time Location-Based Mobile Advertising System
+In this project, I have build a web application and android application to use android devices' location to send offer messages. Businesses can login to this web site, type the offer messages they want to broadcast, select the distance from their location inside which they want to send the offer message and also the refresh time. When they hit send, devices having the app are tracked. All the devices within the specified distance will receive the message. After each time interval (the specified refresh rate), devices which were not found in the disctance are tracked again and if found inside the location, they will receive the message. The cycle repeats for the time duration specified by the business while creating the message.
+Location tracking is done using GPS and Network data. Users can choose which method they want the app to use.
